@@ -1,0 +1,36 @@
+# ─── Deep Learning ───────────────────────────────────────────────────────────
+# CUDA 12.1 için (NVIDIA RTX 3060 Ti):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# CPU için:
+#   pip install torch torchvision torchaudio
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# ─── Model kütüphaneleri ──────────────────────────────────────────────────────
+timm>=0.9.12          # EfficientNet ve modern backbone'lar için
+
+# ─── API & Servis ─────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9   # FastAPI dosya yükleme desteği
+
+# ─── VLM & Ollama ─────────────────────────────────────────────────────────────
+ollama>=0.1.9
+requests>=2.31.0
+
+# ─── Görsel işleme ───────────────────────────────────────────────────────────
+Pillow>=10.2.0
+numpy>=1.26.0
+
+# ─── Veri & analiz ───────────────────────────────────────────────────────────
+pandas>=2.2.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0
+
+# ─── Yardımcı ─────────────────────────────────────────────────────────────────
+# (garbage_classification_complete.py'de kullanılan)
+# opencv-python>=4.9.0  # Gerekirse aktif edin

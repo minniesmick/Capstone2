@@ -1,0 +1,42 @@
+{
+    "total_images": 2527,
+    "num_categories": 6,
+    "categories": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "category_distribution": {
+        "cardboard": 403,
+        "glass": 501,
+        "metal": 410,
+        "paper": 594,
+        "plastic": 482,
+        "trash": 137
+    },
+    "image_properties": {
+        "width": {
+            "mean": 512.0,
+            "std": 0.0,
+            "min": 512,
+            "max": 512
+        },
+        "height": {
+            "mean": 384.0,
+            "std": 0.0,
+            "min": 384,
+            "max": 384
+        },
+        "aspect_ratio": {
+            "mean": 1.333333333333333,
+            "std": 2.220446049250313e-16
+        },
+        "file_size_kb": {
+            "mean": 16.605357421875,
+            "std": 7.3614086947873725
+        }
+    }
+}

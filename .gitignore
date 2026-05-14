@@ -1,0 +1,27 @@
+# --- Modeller ve Büyük Dosyalar ---
+# Tüm model formatlarını engelle
+*.h5
+*.pth
+*.pkl
+*.onnx
+*.weights
+*.pb
+*.tflite
+
+# Results altındaki models klasörünü komple kapat
+results/models/
+models/
+# Garbage classification klasör yapısını koru ama içindeki dosyaları (resimleri) yoksay
+Garbage classification/**
+!Garbage classification/**/
+!Garbage classification/**/.gitkeep
+
+results/visualizations/
+*.png
+*.jpg
+*.jpeg
+
+# --- Python Standartları ---
+.venv/
+__pycache__/
+*.py[cod]
