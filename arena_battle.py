@@ -33,7 +33,7 @@ from torchvision import transforms
 from PIL import Image
 
 # ─── Cihaz ───────────────────────────────────────────────────────────────────
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+DEVICE = torch.device("cpu")
 
 # ─── Proje modülleri ──────────────────────────────────────────────────────────
 from config import (
